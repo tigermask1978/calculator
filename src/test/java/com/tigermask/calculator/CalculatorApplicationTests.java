@@ -14,7 +14,7 @@ class CalculatorApplicationTests {
 	@Test
     void testSum() {
 		var calculator = new Calculator();
-		assertThat(calculator.sum(2, 3)).isEqualByComparingTo("5");
+		assertThat(calculator.sum(2, 3)).isEqualByComparingTo(5);
         
     }
 
