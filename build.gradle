@@ -4,6 +4,7 @@ plugins {
 	id 'java'
 	id 'war'
 	id 'jacoco'
+	id 'checkstyle'
 }
 
 group = 'com.tigermask'
